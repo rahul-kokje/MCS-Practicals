@@ -1,4 +1,6 @@
 #Write a python program to Prepare Scatter Plot (Use Forge Dataset / Iris Dataset)
+import seaborn as sb
+import matplotlib.pyplot as mp
 
 data = sb.load_dataset('iris')
 print(data)
