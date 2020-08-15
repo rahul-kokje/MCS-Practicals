@@ -8,7 +8,7 @@ print(data)
 fig = mp.figure()
 
 #Comment out one of the following..
-fig = fog.add_axes([0, 0, 1, 1])    #use it for jupyter notebook
+fig = fig.add_axes([0, 0, 1, 1])    #use it for jupyter notebook
 fig = fig.add_subplot(111)          #use it for command line
 
 fig.set_xlabel('Species')
